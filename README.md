@@ -1,7 +1,7 @@
-meyermarcel Homebrew Tap
+mrclmr Homebrew Tap
 ========================
 
-This is a [Homebrew](https://brew.sh) tap for formulae for software developed by meyermarcel.
+This is a [Homebrew](https://brew.sh) tap for formulae for software developed by mrclmr.
 
 
 Setup
@@ -13,4 +13,4 @@ document.
 
 Once homebrew is installed, simply run:
 
-    brew tap meyermarcel/tap
+    brew tap mrclmr/tap
