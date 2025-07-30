@@ -2,7 +2,7 @@
 cask "w2a" do
   desc "Convert a workout yaml file to audio files."
   homepage "https://github.com/mrclmr/w2a"
-  version "0.7.0"
+  version "0.8.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,23 +19,23 @@ cask "w2a" do
 
   on_macos do
     on_intel do
-      url "https://github.com/mrclmr/w2a/releases/download/v0.7.0/w2a_Darwin_x86_64.tar.gz"
-      sha256 "d76329ca06445754bd6685e6a3bc1ff0dd54358cb2f93279bb6eeaa0bc182f2e"
+      url "https://github.com/mrclmr/w2a/releases/download/v0.8.0/w2a_Darwin_x86_64.tar.gz"
+      sha256 "c8ae3788e3be144110f6364a6177c67d7f76ea0ecf6c67c55aa2c03911ce9b5b"
     end
     on_arm do
-      url "https://github.com/mrclmr/w2a/releases/download/v0.7.0/w2a_Darwin_arm64.tar.gz"
-      sha256 "67554a2622aac00f06aaa8183a181e15f83d27d87f67c6a00736658e749ae319"
+      url "https://github.com/mrclmr/w2a/releases/download/v0.8.0/w2a_Darwin_arm64.tar.gz"
+      sha256 "ef847e36fefecea6199c9d180800d8f9937788912e8a088ad6afade102367fc6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mrclmr/w2a/releases/download/v0.7.0/w2a_Linux_x86_64.tar.gz"
-      sha256 "d7e2c582b53f44e2eae898215f5a91ee529718dcb872434e818ad73ee89fc9f3"
+      url "https://github.com/mrclmr/w2a/releases/download/v0.8.0/w2a_Linux_x86_64.tar.gz"
+      sha256 "ba68391674793f72b184a1a83e541a962f4b754283ff46e0bdd3d4a3936b5470"
     end
     on_arm do
-      url "https://github.com/mrclmr/w2a/releases/download/v0.7.0/w2a_Linux_arm64.tar.gz"
-      sha256 "25cac47ac52c025c097bf74aece9fab1baadd116e71754310549c5ac9dd8f307"
+      url "https://github.com/mrclmr/w2a/releases/download/v0.8.0/w2a_Linux_arm64.tar.gz"
+      sha256 "36029667879b1d2ee2cef5abb1cb0f6abbf1d7e8c1c270a6794047c37500ba68"
     end
   end
 
